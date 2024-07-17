@@ -1,13 +1,20 @@
 {
   "name": "@steadycursor/i18n-gpt-translate",
   "private": false,
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "bin": {
     "i18n-gpt-translate": "dist/src/program.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steadycursor/i18n-gpt-translate"
+  },
+  "bugs": {
+    "url": "https://github.com/steadycursor/i18n-gpt-translate/issues"
   },
   "files": [
     "assets",

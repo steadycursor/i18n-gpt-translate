@@ -4,11 +4,12 @@ A CLI tool for translating internationalization (i18n) files using GPT models.
 
 Run with `i18n-gpt-translate`.
 
-![preview](./assets/preview.png)
+![preview](https://raw.githubusercontent.com/steadycursor/i18n-gpt-translate/main/assets/preview.png)
 
 ## Features
 
 - Automatically translates missing keys and and also it translate values, where value is empty (`""`).
+- Translate as many json files for as many languages as you wish.
 - You do not need to specify what languages do you have, script will automatically detect it.
 
 ### Options
@@ -16,6 +17,12 @@ Run with `i18n-gpt-translate`.
 - `--localesPath` (required) - path to folder, where your locales folders (en, fr, it, etc.) exists.
 - `--defaultLanguage` (required) - default language, that will be used as source for translation. This has to be one of the folders of `--localesPath`.
 - `--token` (required) - ChatGPT token, that you can generate [here](https://platform.openai.com/settings/profile?tab=api-keys).
+
+### Installation
+
+```
+npm install @steadycursor/i18n-gpt-translate
+```
 
 ### Example Usage
 
