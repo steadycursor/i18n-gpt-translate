@@ -1,0 +1,20 @@
+{
+  "accountName": "Název organizace",
+  "actions": "Akce",
+  "active": "Aktivní",
+  "addRow": "Přidat řádek",
+  "adobeExperienceManagerNamespace": "Prostor jmen",
+  "adobeExperienceManagerPassword": "Heslo",
+  "adobeExperienceManagerUsername": "Uživatelské jméno",
+  "allowAccess": "Povolit přístup",
+  "amountOfCreditsPerLicence": "Množství kreditů na licenční klíč",
+  "apiKey": "API klíč",
+  "arrow": "Šipka",
+  "arrowDirection": "Směr šipky",
+  "author": "Autor",
+  "availableModules": "Dostupné moduly",
+  "background": "",
+  "backgroundColor": "Barva pozadí",
+  "backgroundImage": "Obrázek pozadí",
+  "bold": "Tučné"
+}

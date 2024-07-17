@@ -1,0 +1,16 @@
+{
+  "AccountsCommandPalette": {
+    "inputPlaceholder": "Account name...",
+    "noResults": {
+      "title": "No results found"
+    }
+  },
+  "AccountSetting": {
+    "enableDeviceSosImporter": {
+      "card": {
+        "description": "This setting affects whether devices available on platform will be automatically registered in this CMS.",
+        "title": "Setting up automatic device importing"
+      }
+    }
+  }
+}

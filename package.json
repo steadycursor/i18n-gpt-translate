@@ -1,0 +1,37 @@
+{
+  "name": "@steadycursor/i18n-gpt-translate",
+  "private": false,
+  "version": "1.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "i18n-gpt-translate": "dist/src/program.js"
+  },
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "ts-node src/program.ts",
+    "build": "tsc --build",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chatgpt": "^5.2.5",
+    "commander": "^11.1.0",
+    "flat": "^3.0.1",
+    "lodash": "^4.17.21",
+    "ora": "^7.0.1",
+    "spinnies": "^0.5.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/flat": "^5.0.5",
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.12.12",
+    "@types/spinnies": "^0.5.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

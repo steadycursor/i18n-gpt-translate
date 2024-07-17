@@ -1,0 +1,15 @@
+{
+  "AccountsCommandPalette": {
+    "inputPlaceholder": "",
+    "noResults": {
+      "title": "Nebyly nalezeny žádné výsledky"
+    }
+  },
+  "AccountSetting": {
+    "enableDeviceSosImporter": {
+      "card": {
+        "description": "Toto nastavení ovlivňuje, zda zařízení dostupná na platformě budou automaticky registrována v tomto CMS."
+      }
+    }
+  }
+}
