@@ -1,7 +1,7 @@
 {
   "name": "@steadycursor/i18n-gpt-translate",
   "private": false,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,6 +9,10 @@
   "bin": {
     "i18n-gpt-translate": "dist/src/program.js"
   },
+  "files": [
+    "assets",
+    "dist"
+  ],
   "scripts": {
     "prestart": "npm run build",
     "start": "ts-node src/program.ts",
