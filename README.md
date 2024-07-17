@@ -1,8 +1,8 @@
 # i18n-gpt-translate
 
-A CLI tool for translating internationalization (i18n) files using GPT models.
+A CLI tool for translating internationalization (i18n) json files using Open AI.
 
-Run with `i18n-gpt-translate`.
+Run with script with command `i18n-gpt-translate`.
 
 ![preview](https://raw.githubusercontent.com/steadycursor/i18n-gpt-translate/main/assets/preview.png)
 
